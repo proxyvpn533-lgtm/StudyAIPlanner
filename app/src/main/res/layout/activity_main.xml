@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@color/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="28dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="55dp"
+            android:text="@string/app_name"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="@color/primary_text" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:text="@string/choose_medium"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="@color/primary_text" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/select_medium"
+            android:textSize="16sp"
+            android:textColor="@color/secondary_text" />
+
+        <Button
+            android:id="@+id/btnEnglish"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="45dp"
+            android:text="@string/english_medium"
+            android:textSize="17sp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnGujarati"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/gujarati_medium"
+            android:textSize="17sp"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+
+</ScrollView>
