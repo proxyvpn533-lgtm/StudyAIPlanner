@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string name="app_name">StudyAI Planner 🎓</string>
+
+    <string name="choose_medium">Choose Your Medium</string>
+    <string name="select_medium">Select your preferred study medium.</string>
+
+    <string name="english_medium">English Medium</string>
+    <string name="gujarati_medium">Gujarati Medium</string>
+
+</resources>
